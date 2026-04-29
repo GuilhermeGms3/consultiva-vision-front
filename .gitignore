@@ -30,3 +30,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+whatsapp-bot/auth/
+release/
+release.rar
+.vscode/settings.json
+dist/
+build/
