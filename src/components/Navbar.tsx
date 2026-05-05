@@ -18,11 +18,10 @@ export function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 z-50 w-full transition-all duration-500 ${
-        scrolled
+      className={`fixed top-0 z-50 w-full transition-all duration-500 ${scrolled
           ? "backdrop-blur-md bg-background/70 border-b border-border"
           : "bg-transparent"
-      }`}
+        }`}
     >
       <nav className="mx-auto flex max-w-[1600px] items-center justify-between px-6 py-5 md:px-10">
         <a href="#" className="flex items-baseline gap-2">
